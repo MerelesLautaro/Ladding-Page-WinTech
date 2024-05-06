@@ -249,11 +249,11 @@ sup {
 }
 
 a {
-  color: #fa00fb;
+  color: #628FEF;
   text-decoration: underline;
 }
 a:hover {
-  color: #bd1fbf;
+  color: #1c28d3;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -2849,10 +2849,10 @@ textarea.form-control-lg {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #ff00f6;
+  --bs-btn-bg: #326de9;
   --bs-btn-border-color: #64a19d;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #bd1fbf;
+  --bs-btn-hover-bg: #1c28d3;
   --bs-btn-hover-border-color: #50817e;
   --bs-btn-focus-shadow-rgb: 123, 175, 172;
   --bs-btn-active-color: #fff;
@@ -8182,7 +8182,7 @@ textarea.form-control-lg {
 /* rtl:end:remove */
 .text-primary {
   --bs-text-opacity: 1;
-  color: #ff00f6 !important;
+  color: #326de9 !important;
 }
 
 .text-secondary {
@@ -10986,8 +10986,8 @@ body {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #ff00f6;
-  border: 1px solid #ff00f6;
+  color: #326de9;
+  border: 1px solid #326de9;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -11041,15 +11041,15 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #ff00f6;
+    color: #326de9;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #ff00f6;
+    color: #326de9;
     outline: none;
-    border-bottom: 0.25rem solid #ff00f6;
+    border-bottom: 0.25rem solid #326de9;
   }
 }
 
@@ -11069,7 +11069,7 @@ body {
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/fondo2.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("../assets/img/fondoazulmain.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -11080,7 +11080,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(218, 112, 214, 0.9), rgba(218, 112, 214, 0));
+  background: linear-gradient(rgba(68, 128, 255, 0.5) 75%, rgba(0, 0, 0, 0) 100%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11113,7 +11113,8 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000 0%, rgba(10, 0, 10, 1) 75%, rgba(128, 26, 128, 0.8) 100%);
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 20, 1) 75%, rgba(68, 128, 255, 0.8) 100%);
+
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -11128,7 +11129,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #ff00f6;
+    border-left: 0.5rem solid #326de9;
   }
 }
 .projects-section .project-text {
@@ -11165,7 +11166,7 @@ body {
 }
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #ff00f6;
+  border-bottom: 0.25rem solid #326de9;
 }
 .contact-section .card h4, .contact-section .card .h4 {
   font-size: 0.8rem;
@@ -11175,7 +11176,7 @@ body {
 }
 .contact-section .card hr {
   opacity: 1;
-  border-color: #ff00f6;
+  border-color: #326de9;
   border-width: 0.25rem;
   width: 3rem;
 }
