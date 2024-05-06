@@ -645,6 +645,7 @@ progress {
   margin-left: auto;
 }
 
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -11090,7 +11091,7 @@ body {
   font-size: 1rem;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 300px) {
   .masthead h1, .masthead .h1 .h2{
     font-size: 1.5rem;
     line-height: 1.5rem;
